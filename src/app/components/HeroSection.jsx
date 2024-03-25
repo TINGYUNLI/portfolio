@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:pt-16 lg:pb-8">
+    <section className="lg:pt-16 lg:pb-8 w-full">
       <div className="grid grid-cols-7 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -17,8 +17,8 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 col-start-2 sm:col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-textColor mb-4 text-4xl sm:text-5xl lg:text-7xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">
+          <h1 className="text-textColor mb-4 text-3xl sm:text-5xl lg:text-7xl font-extrabold">
+            <span className="text-transparent text-4xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">
               Hello, I&apos;m{" "}
             </span>
             <br />
@@ -29,7 +29,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-secondarytext text-base font-medium sm:text-lg mb-6 lg:text-xl">
+          <p className="text-secondarytext text-base font-medium sm:text-lg mb-10 sm:mb-6 lg:text-xl">
             Welcome to my Portfolio!
           </p>
           <div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <button className="px-1 py-1 w-4/5 sm:w-fit rounded-full bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 hover:bg-slate-200 text-textColor mt-5">
-              <span className="block bg-bgColor hover:bg-primary-400 rounded-full px-5 py-2">
+              <span className="block bg-bgColor hover:bg-primary-400 rounded-full px-4 py-2">
                 <a href="/resume-rita.pdf" download className="font-medium">
                   Download CV
                 </a>
