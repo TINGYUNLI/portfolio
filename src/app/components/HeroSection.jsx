@@ -39,7 +39,7 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <button className="px-1 py-1 w-3/5 sm:w-fit rounded-full bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 hover:bg-slate-200 text-textColor mt-5">
+            <button className="px-1 py-1 w-4/5 sm:w-fit rounded-full bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 hover:bg-slate-200 text-textColor mt-5">
               <span className="block bg-bgColor hover:bg-primary-400 rounded-full px-5 py-2">
                 <a href="/resume-rita.pdf" download className="font-medium">
                   Download CV
